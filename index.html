@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>js Booklists </title>
+
+
+      <!-- BOOTSTRAP CDN LINK  -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+      <!-- CUSTOM CSS LINK  -->
+      <link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+
+     
+
+      <div class="container pt-5 m-short">
+
+            <h1 class="mb-5 text-center">My Booklists App</h1>
+
+            <form action="">
+                  <div class="mb-3">
+                        <label for="title" class="form-label">Title</label>
+                      
+                        <input type="text" class="form-control" id="title" >
+                        <div class="err-title"></div>
+                        
+                  </div>
+            
+                  <div class="mb-3 input-div">
+                        <label for="author" class="form-label">Author</label>
+                    
+                        <input type="text" class="form-control" id="author">
+                        <div class="err-author"></div>
+                       
+                  </div>
+            
+                  <div class="mb-3 input-div">
+                        <label for="id" class="form-label">Id</label>
+                  
+                        <input type="text" class="form-control" id="id">
+                        <div class="err-ids"></div>
+                       
+                  </div>
+      
+                  <div class="mb-3">
+                        <button class="btn btn-lg bg-info" type="submit">Submit</button>
+                  </div>
+            </form>
+
+            <table class="table table-striped">
+                 
+            </table>
+           
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="/apps/app.js"></script>
+</body>
+</html>
